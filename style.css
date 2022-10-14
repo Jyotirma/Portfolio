@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&family=Sacramento&display=swap');
+body{
+    /* background-color: rgb(233, 220, 245); */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #40514E;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 4.7rem;
+    margin-bottom: 15px;
+    color: #66BFBF;
+    /* line-height: 2; */
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    /* font-size: 1.3rem; */
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+/* span{
+    font-size: 1.7rem;
+    font-weight: bold;
+} */
+
+.mountain{
+    height: 40%;
+    width: 40%;
+}
+.cloud{
+    height: 15%;
+    width: 15%;
+}
+
+.top-cont{
+    background-color: #eaf6f6;
+    margin: -22px -8px;
+    position: relative;
+    padding: 100px;
+ } 
+
+ .top-cloud{
+    position: absolute;
+    right: 328px;
+    top: 90px;
+ }
+
+ .bottom-cloud{
+    position: absolute;
+    bottom: 200px;
+    left: 341px;
+ }
+
+ .pic{
+    height: 77px;
+ }
+
+.mountain{
+    position: relative;
+    top: 30px;
+ }
+
+.design{
+    height:70px;
+    width: 70px;
+    
+ }
+
+.code{
+    height: 70px;
+    width: 70px;
+    
+ }
+
+ .tech{
+    /* text-align: left; */
+    line-height: 2;
+ }
+
+ul{
+    
+    list-style-position: inside; 
+    text-align: left;
+    /* margin-left: 80px; */
+    
+}
+ul li{
+    display: inline;
+    list-style-type: circle;
+    padding: 20px;
+}
+
+.skill-row ul li{
+    margin-left: 30px;
+}
+hr{
+    border: dotted #ced4d4;
+    border-width: 5px 0px 0 0;
+    border-bottom: none;
+    width: 6%;
+    margin: 70px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+.contact-me p{
+    line-height: 1;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+.middle-container{
+    display: inline-block;
+    width: 500px;
+    margin: 100px 0;
+ }
+
+.btn{
+    background-color: #0da5aa;
+    color: #ffff;
+    border-radius: 8px;
+    border: 0px;
+    height: 30px;
+    
+}
+
+a{
+    color: #257a7d;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+.btn:hover{
+    background: #1a4a4c;
+    cursor: pointer;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0px 30px;
+    margin: 0 -9px -8px;
+}
+.copyright{
+    color: #eaf6f6;
+}
